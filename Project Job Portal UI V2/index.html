@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/R_logo.png">
+    <title>Reboot | A New Beginning For Women</title>
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <script src="assets/js/jquery-3.1.1.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <style>
+        .search {
+            display: none !important;
+        }
+        .search.active_search {
+            display: inline-block !important;
+        }
+        @keyframes translater {
+            0% {
+                background-image: url("assets/images/slide1.jpg");
+                background-position: -500px -500px;
+            }
+            24% {
+                background-image: url("assets/images/slide1.jpg");
+                background-position: 0px 0px;
+            }
+            29% {
+                background-image: url("assets/images/slide2.jpg");
+                background-position: 0px 0px;
+            }
+            49% {
+                background-position: -500px -500px;
+            }
+            50% {
+                background-image: url("assets/images/slide2.jpg");
+                background-position: -500px -500px;
+            }
+            74% {
+                background-image: url("assets/images/slide3.jpg");
+                background-position: 0px 0px;
+            }
+            79% {
+                background-image: url("assets/images/slide1.jpg");
+                background-position: 0px 0px;
+            }
+            100% {
+                background-image: url("assets/images/slide1.jpg");
+                background-position: -500px -500px;
+            }
+    </style>
+    <script>
+$(document).ready(function(){
+    $(".fa-search").click(function(){
+        $("input").toggleClass("active_search");
+    });
+});
+</script>
+    
+</head>
+<body>
+<div id="container">
+  <nav class="navbar navbar-default customNav navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Search Bar and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--<a class="navbar-brand" href="#"><img src="assets/images/reboot_logo.jpg" alt=""></a>-->
+      <!--<form action="/search">
+          <div>
+              <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+          </div>
+      </form>-->
+      <form class="navbar-form navbar-left search-nav">
+        <div class="form-group">
+            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+          <input type="text" class="form-control search" placeholder="Search">
+          
+        
+<!--        <button type="submit"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>-->
+        </div>
+      </form>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     <div class="mid-nav">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Magazine <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Jobs</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Women</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Founder</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Corporate</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mentoring Programs</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      </div>
+      <!--<form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>-->
+      <ul class="nav navbar-nav navbar-right signIn">
+        <li><!--<a href="#">Link</a>-->
+         <!-- Button trigger modal -->
+    <button type="button" class="logBtn" data-toggle="modal" data-target="#loginModal">
+          Login
+    </button>
+        </li>
+        <li>
+          <button type="button" class="regBtn" data-toggle="modal" data-target="#regModal">Register</button>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+<div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email ID</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-default">Login</button>
+    </form>
+</div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>-->
+    </div>
+  </div>
+</div>
+  
+  <!--Reg Modal-->
+   <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Register Options</h4>
+      </div>
+      <div class="modal-body">
+          <form action="">
+              <div>
+                  <div>
+                      <div><a href="#"><img src="assets/images/job_icon.png" alt=""></a></div>
+                      <button type="submit">Submit</button>
+                  </div>
+              </div>
+              <div>
+                  <div>
+                      <div><a href="#"><img src="assets/images/emp_icon.png" alt=""></a></div>
+                      <button type="submit">Submit</button>
+                  </div>
+              </div>
+              <div>
+                  <div>
+                      <div><a href="#"><img src="assets/images/blog_icon.png" alt=""></a></div>
+                      <button type="submit">Submit</button>
+                  </div>
+              </div>
+          </form>
+      </div>
+       </div>
+  </div>
+</div>
+
+<div id="mainDiv">
+      <img src="assets/images/lion.png" alt="">
+       <h1>Hello Welcome to Reboot</h1>
+       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore in, magni modi maxime sunt, veritatis beatae quo non, amet quod quae asperiores consequatur, alias magnam necessitatibus. Nostrum culpa reiciendis nisi.</h2>
+       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore in, magni modi maxime sunt, veritatis beatae quo non, amet quod quae asperiores consequatur, alias magnam necessitatibus. Nostrum culpa reiciendis nisi.</h2>
+       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore in, magni modi maxime sunt, veritatis beatae quo non, amet quod quae asperiores consequatur, alias magnam necessitatibus. Nostrum culpa reiciendis nisi.</h2>
+</div>
+<div id="div_2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cupiditate reprehenderit similique fugit reiciendis. Rem illo fugiat dicta. Assumenda nemo sed dolores, numquam! Quos fugit, ad nihil quis, cupiditate asperiores.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sit fuga, suscipit voluptatibus ad incidunt similique, aliquam tenetur quae velit perspiciatis neque molestiae laboriosam perferendis iste ex quam excepturi possimus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia laborum consectetur placeat nobis ipsum, dicta dolorum officiis quo aliquid amet, harum soluta. Enim deserunt voluptate tempora, perspiciatis fuga dignissimos corporis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur similique modi perferendis aperiam neque dicta officia ratione voluptate a odio quasi deserunt animi illo, facilis doloribus molestiae! Sit quas, at.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium libero vel, ea doloremque quas illo molestiae! Ut quos sunt culpa minima, consequuntur deserunt ullam perferendis adipisci, aperiam eligendi, accusantium maxime?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cupiditate reprehenderit similique fugit reiciendis. Rem illo fugiat dicta. Assumenda nemo sed dolores, numquam! Quos fugit, ad nihil quis, cupiditate asperiores.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sit fuga, suscipit voluptatibus ad incidunt similique, aliquam tenetur quae velit perspiciatis neque molestiae laboriosam perferendis iste ex quam excepturi possimus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia laborum consectetur placeat nobis ipsum, dicta dolorum officiis quo aliquid amet, harum soluta. Enim deserunt voluptate tempora, perspiciatis fuga dignissimos corporis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur similique modi perferendis aperiam neque dicta officia ratione voluptate a odio quasi deserunt animi illo, facilis doloribus molestiae! Sit quas, at.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium libero vel, ea doloremque quas illo molestiae! Ut quos sunt culpa minima, consequuntur deserunt ullam perferendis adipisci, aperiam eligendi, accusantium maxime?</p>
+</div>
+<div>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias provident, recusandae sequi iusto voluptate. Suscipit consectetur voluptates nostrum deleniti at vel laudantium id nulla officia sequi quisquam officiis, similique illum.</h5>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias provident, recusandae sequi iusto voluptate. Suscipit consectetur voluptates nostrum deleniti at vel laudantium id nulla officia sequi quisquam officiis, similique illum.</h5>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias provident, recusandae sequi iusto voluptate. Suscipit consectetur voluptates nostrum deleniti at vel laudantium id nulla officia sequi quisquam officiis, similique illum.</h5>
+</div>
+   <!--Mentors-->
+<div class="mentors">  
+<div class="row">
+       <div><h1>No Mentors? No Problem!</h1></div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="clientBlock">
+                    <h2 id="clients">Some Of Our Clients</h2>
+                    <div>
+                    <a href="https://www.honeywell.com/"><img src="assets/images/honeywell-logo.png" alt=""></a>
+                    <a href="http://www.mindlance.com/"><img src="assets/images/mindlance-logo.png" alt=""></a>
+                    <a href="http://taurusinc.com/"><img src="assets/images/taurusinc-logo.png" alt=""></a>
+                    <a href="http://www.enventworld.com/"><img src="assets/images/envent-logo.png" alt=""></a>
+                    <a href="http://tattvamittal.com/"><img src="assets/images/tattva-mittal-logo.png" alt=""></a>
+                    <a href="http://www.wealthbeing.in/"><img src="assets/images/wealthbeing-logo.png" alt=""></a>
+                    <a href="https://www.mohhindia.com/"><img src="assets/images/mohh-logo.png" alt=""></a>
+                    <a href="http://www.godrejagrovet.com/"><img src="assets/images/godrej-agrovet-logo.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <footer class="footer">
+        <div class="container">
+            <div id="addressContent" class="clearfix">
+                <div class="column"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nostrum a itaque magnam ad eaque, placeat recusandae aperiam quisquam. Ipsam animi, quam sint blanditiis itaque aperiam delectus aliquid quasi error.</p></div>
+                <div class="column"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat blanditiis rerum dolore hic quidem iusto a ducimus odio ratione saepe distinctio, ab accusamus quibusdam, sed, consectetur quia id, amet ipsam.</p></div>
+                <div class="column"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nesciunt quo vel vitae provident cumque ipsam, eos magni, id reiciendis esse corporis nam nihil molestias, perferendis libero in architecto numquam.</p></div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
